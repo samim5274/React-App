@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f3f3f3;
+}
 .icons-youtube{
     display: flex;
     justify-content: center;
@@ -21,7 +27,36 @@
     color: #006eff;
     transition: color 0.3s ease;
 }
-
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    width: 250px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    width: 250px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.p-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    width: 50%;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
 button {
     background: linear-gradient(135deg, #00ffff, #2dafe2);
     color: #ffffff;
