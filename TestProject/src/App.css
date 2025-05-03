@@ -1,0 +1,47 @@
+.icons-youtube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    width: 50px;
+    font-size: 24px;
+    color: #ff0000;
+    transition: color 0.3s ease;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    width: 50px;
+    font-size: 24px;
+    color: #006eff;
+    transition: color 0.3s ease;
+}
+
+button {
+    background: linear-gradient(135deg, #00ffff, #2dafe2);
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    margin-bottom: 100px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(110, 0, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(110, 0, 255, 0.4);
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 0 3px 10px rgba(110, 0, 255, 0.2);
+}
